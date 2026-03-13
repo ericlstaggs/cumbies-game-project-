@@ -1,5 +1,5 @@
-# [Project Name]
-A brief one or two-sentence description of what this website does and the problem it solves.
+# [Match em' All!]
+I plan to creat a small web application game that will allow the user to play a card matching game
 
 ## 🚀 Demo
 [Link to live site or a GIF of the site in action]
