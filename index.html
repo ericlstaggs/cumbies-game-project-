@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>Index</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="styles/my-style.css">
 </head>
-<body>
-    
+
+<body class="text-light d-flex align-items-center py-5">
+
+  <div class="container">
+    <div class="game-wrapper">
+      <div class="glass-card rounded-4 shadow-lg p-4 p-md-5">
+        <div class="text-center mb-4">
+          <div class="display-5 fw-bold">Memory Match</div>
+          <p class="text-light-emphasis mb-o">Built with Bootstrap 5 and JavaScript</p>
+        </div>
+
+
+        <div class="row g-3 align-items-stretch">
+          <div class="row g-3 align-items-stretch mb-4">
+            <div class="col-12 col-md-8">
+              <div class="row g-3">
+                <div class="col-4">
+                  <div class="stat-card text-center h-100 p-3">
+                    <div class="small text-uppercase text-light-emphasis">Moves</div>
+                    <div id="moves" class="fs-3 fw-bold">0</div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="stat-card text-center h-100 p-3">
+                    <div class="small text-uppercase text-light-emphasis">Matches</div>
+                    <div id="matches" class="fs-3 fw-bold">0</div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="stat-card text-center h-100 p-3">
+                    <div class="small text-uppercase text-light-emphasis">Time</div>
+                    <div class="fs-3 fw-bold"><span id="timer">0</span>s</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4 d-grid">
+              <button id="restartBtn" class="btn btn-info btn-lg fw-semibold text-dark shadow-sm">
+                Restart Game
+              </button>
+            </div>
+          </div>
+
+          <section>
+            <div id="gameBoard" class="game-board"></div>
+            <p id="message" class="text-center fs-5 fw-semibold text-warning mt-4 mb-0"></p>
+          </section>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+  <!-- here are scripts -->
+  <script src="scripts/my-initial-script.js"></script>
 </body>
+
 </html>
